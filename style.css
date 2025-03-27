@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+
+}
+
+.sec-one__title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+.sec-one__desc {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.sec-two__img,
+.sec-three__img,
+.sec-four__img,
+.sec-five__img {
+    width: 150px;
+    height: 180px;
+
+}
+
+.sec-two,
+.sec-three,
+.sec-four,
+.sec-five {
+    display: inline-block;
+
+    border: solid black 1px;
+}
+
+.sec-two__desc,
+.sec-three__desc,
+.sec-four__desc,
+.sec-five__desc {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sec-two__button,
+.sec-three__button,
+.sec-four__button,
+.sec-five__button {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border: solid yellowgreen 2px;
+}
+
+.sec-six {
+    background-color: black;
+    color: white;
+
+    margin-top: 10px;
+}
+
+.sec-six__title {
+    background-color: black;
+    color: white;
+    padding-left: 570px;
+    padding-top: 10px;
+
+
+}
+
+.sec-six__button {
+
+    background-color: yellowgreen;
+    color: black;
+    width: 500px;
+    margin-left: 400px;
+    padding: 3px;
+
+}
+
+.sec-six__name,
+.sec-six__age,
+.sec-six__mail {
+    margin-top: 10px;
+    padding-left: 500px;
+}
